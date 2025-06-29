@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff6f6;
+  color: #222;
+}
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+button {
+  margin: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid #b94b6d;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #b94b6d;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #b94b6d;
+  color: white;
+}
+img {
+  max-width: 150px;
+  border-radius: 10px;
+  margin: 0.25rem;
+}
